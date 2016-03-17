@@ -13,15 +13,15 @@ knit        : slidify::knit2slides
 ## Slide 1 - Why Inderstand the Learning Curve?
 Data is expensive and time consuming to obtain. Therefore, estimations of training data size are necessary to predict the time and cost for building machine learning products.
 
-* Learning curves are used in machine learning to predict the number of training cases need to obtain the highest achievable prediction accuracy.
-
 * This presentation demonstrats how learning curves are one technique for predicting this size of a training data set.
 
 * Consider using this technique during product development for applications and devices from which little data is available.
 
 ---
 ## Slide 2 - Linear Discriminant Analysis Learning Curve Example
-In this presentation, we explore the Learning Curve concept using the Iris data set.
+* Learning curves are used in machine learning to predict the number of training cases need to obtain the highest achievable prediction accuracy.
+
+* In this presentation, we explore this concept using the Iris data set.
 
 * The model we trained was a linear discriminant analysis (LDA) to predict the Iris species based on four features measured from each species.
 
@@ -78,7 +78,7 @@ Researchers have devised a much better model for predicting sample size compared
 
 * Data scientists might consider developing learning curves as a technique during product development for applications and devices from which little data is available.
 
-* For more information please refer to the following references:
+For more information please refer to the following references:
 
 Figueroa et al.: Predicting sample size required for classification performance. BMC Medical Informatics and Decision Making 2012 12:8.
 
