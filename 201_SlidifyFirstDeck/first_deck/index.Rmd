@@ -1,0 +1,24 @@
+---
+title       : Test      
+subtitle    : Test subtitle
+author      : Jeff
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : mathjax            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+## Slide 1
+Hello World!
+
+---
+##Slide 2
+
+```{r results='hide'}
+fit <- lm(y ~ x1 + x2 + x3)
+summary(fit)
+```
+
+
